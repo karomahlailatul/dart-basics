@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print("Masukkan Nama Anda : ");
+  stdout.write("Masukkan Nama : ");
   String? nama = stdin.readLineSync();
   print("Hello Nama Saya : ${nama}");
   print("Hello Nama Saya : '${nama}'");
