@@ -1,10 +1,10 @@
 import 'dart:io';
 
 void main(){
-  List<String> kata = ['Abu', 'Musdalifah', 'Ayu', 'David'];
+  List<String> kata = ['error', 'welcome', 'chair', 'love'];
   print(kata);
-  for (String nama in kata) {
-    int totalHuruf = nama.length;
-    print('Nama : $nama , terpanjang memiliki huruf dengan total : $totalHuruf');
+  for (String kata in kata) {
+    int totalHuruf = kata.length;
+    print('Kata : $kata , terpanjang memiliki huruf dengan total : $totalHuruf');
   }
 }
