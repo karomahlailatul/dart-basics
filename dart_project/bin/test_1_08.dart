@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  print(" Masukkan bilangan 1 : ");
+  stdout.write("Masukkan bilangan 1 : ");
   int? nil1 = int.parse(stdin.readLineSync()!);
-  print("Masukkan bilangan 2 : ");
+  stdout.write("Masukkan bilangan 2 : ");
   int? nil2 = int.parse(stdin.readLineSync()!);
   print("Bilangan 1 mempunyai Nilai ${nil1} Bilangan 2 mempunyai Nilai ${nil2}");
 
