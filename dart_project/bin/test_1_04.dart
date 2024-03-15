@@ -1,7 +1,18 @@
+import 'dart:io';
+
 void main() {
-  int p = 1;
-  int l = 2;
-  int r = 3;
-  double volume = (p * l * r) / 100;
-  print(volume);
+  double p, t, r, si;
+
+  stdout.write('Masukkan jumlah pokok (p): ');
+  p = double.parse(stdin.readLineSync()!);
+
+  stdout.write('Masukkan waktu (t) dalam tahun: ');
+  t = double.parse(stdin.readLineSync()!);
+
+  stdout.write('Masukkan tingkat bunga (r) dalam persen: ');
+  r = double.parse(stdin.readLineSync()!);
+
+  si = (p * t * r) / 100;
+
+  print('Bunga sederhana = $si');
 }
